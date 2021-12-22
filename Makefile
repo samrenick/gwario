@@ -1,4 +1,4 @@
 deploy:
-	zig cc -o main.exe main.c -target aarch64-macos 
+	zig cc -o main.exe main.cpp -target aarch64-macos 
 	./main.exe
 
