@@ -20,7 +20,7 @@ struct Flags{
 
 int main(int argc, char **argv) {
     unsigned char memory[0x100];
-    FILE *file = fopen("boot.rom", "rb");
+    FILE *file = fopen("../boot.rom", "rb");
 
     int position = 0;
     while(fread(&memory[position],1,1,file)){
